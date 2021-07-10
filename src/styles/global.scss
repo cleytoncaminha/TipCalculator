@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(185, 41%, 84%);
+    
+}
+.App{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    margin-top: 12%;
+    width: 30px;
+    letter-spacing: 7px;
+    color: hsl(186, 14%, 43%);
+    font-weight: 700;
+}

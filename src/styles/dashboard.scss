@@ -1,0 +1,49 @@
+.dashboard{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    background-size: cover;
+    height: 40vh;
+    border-radius: 30px;
+    display: flex;
+
+    
+}
+
+.bill{
+margin-left: 5%;
+margin-top: 2%;
+font-family: 'Space Mono', monospace;
+
+    p{
+        font-size: 15px;
+        color: gray;
+        margin-bottom: 0px;
+    }
+  input{
+    background-image: url("../assets/images/icon-dollar.svg");
+    background-repeat: no-repeat;
+    padding: 2%;
+    background-position: 5%;
+    border: none;
+    font-size: 24px;
+    border-radius: 3px;
+    margin-top: 0px;
+    
+    
+    
+    
+  }
+  :focus{
+        outline: none;
+        border: aqua 1px solid;
+        appearance: none;
+    }
+    
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+}
