@@ -7,6 +7,7 @@
     height: 40vh;
     border-radius: 30px;
     display: flex;
+    flex-direction: column;
 
     
 }
@@ -14,7 +15,7 @@
 .bill{
 margin-left: 5%;
 margin-top: 2%;
-font-family: 'Space Mono', monospace;
+
 
     p{
         font-size: 15px;
@@ -24,20 +25,23 @@ font-family: 'Space Mono', monospace;
   input{
     background-image: url("../assets/images/icon-dollar.svg");
     background-repeat: no-repeat;
-    padding: 2%;
+    font-size: 19px;
+    padding: 5px;
     background-position: 5%;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 3px;
     margin-top: 0px;
-    
-    
-    
-    
+    background-color: hsl(189, 41%, 97%);
+    width: 42%;
+    text-align: right;
+    box-sizing: border-box;
+    color: hsl(183, 100%, 15%);
+     
   }
   :focus{
         outline: none;
-        border: aqua 1px solid;
+        border: hsl(172, 67%, 45%) 2px solid;
         appearance: none;
     }
     
@@ -46,4 +50,65 @@ font-family: 'Space Mono', monospace;
   -webkit-appearance: none; 
   margin: 0; 
 }
+
+}
+
+.tips{
+  margin-left: 5%;
+margin-top: 2%;
+width: 40%;
+.btns{
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  gap: 10px;
+
+  
+.btn:hover{
+  background-color: hsl(172, 67%, 45%);
+}
+  .btn{
+    font-size: 24px;
+    border: none;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    text-align: center;
+    
+  }
+}
+
+
+    p{
+    
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 2%;
+  }
+
+  input{
+    background-position: 5%;
+    border: none;
+    font-size: 22px;
+    border-radius: 3px;
+    margin-top: 0px;
+    background-color: hsl(189, 41%, 97%);
+    text-align: right;
+    width: 100%;
+    box-sizing: border-box;
+    color: hsl(183, 100%, 15%);
+     
+  }
+  :focus{
+        outline: none;
+        border: hsl(172, 67%, 45%) 1px solid;
+        appearance: none;
+
+      
+    }
+    
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+ 
+}
+
 }
