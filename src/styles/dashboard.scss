@@ -65,6 +65,7 @@ width: 40%;
   
 .btn:hover{
   background-color: hsl(172, 67%, 45%);
+  cursor: pointer;
 }
   .btn{
     font-size: 24px;
@@ -72,6 +73,7 @@ width: 40%;
     background-color: hsl(183, 100%, 15%);
     color: white;
     text-align: center;
+    border-radius: 5px;
     
   }
 }
@@ -88,7 +90,7 @@ width: 40%;
     background-position: 5%;
     border: none;
     font-size: 22px;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-top: 0px;
     background-color: hsl(189, 41%, 97%);
     text-align: right;
