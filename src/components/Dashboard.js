@@ -1,16 +1,14 @@
 import '../styles/dashboard.scss';
+import '../styles/result.scss'
 import React from 'react';
-import dollarImg from '../assets/images/icon-dollar.svg'
 import { Tips } from './Tips';
-
+import { Result } from './Result';
 
 export function Dashboard(){
     return(
         <div className="dashboard">
-         <div className="bill"><p>Bill</p>
-         <div><input type="number"></input></div>
-         </div>
          <Tips></Tips>
+         <Result></Result>
         </div>
     )
 }
