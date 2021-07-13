@@ -138,7 +138,8 @@ box-sizing: border-box;
           margin-bottom: 0px;
           margin-top: 5%;
       }
-    input{
+    
+      input{
       background-image: url("../assets/images/icon-person.svg");
       background-repeat: no-repeat;
       font-size: 19px;
@@ -166,5 +167,16 @@ box-sizing: border-box;
     -webkit-appearance: none; 
     margin: 0; 
   }
-  
+  .inputerror{
+    border: red 2px solid;
   }
+  }
+  .numberpeople{
+    display: flex;
+    justify-content: space-between;
+    .error{
+      color:red
+    }
+    
+  }
+  
