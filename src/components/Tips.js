@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/dashboard.scss';
-import '../styles/result.scss';
+import '../styles/results.scss';
 
 
 export function Tips(){
    function billValue(){
-        let t = document.getElementsByClassName("billvalue")
+        let t = document.getElementsByClassName("billvalue");
         console.log(t)
    }
 
